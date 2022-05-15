@@ -1,0 +1,54 @@
+.sample {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.header {
+    padding-top: 40px;
+    padding-left: 48px;
+    font-weight: bold;
+}
+
+.title_str {
+    font-size: 32px;
+    color: #000;
+    margin-bottom: 32px;
+}
+
+.title_str2 {
+    font-size: 20px;
+    color: #000;
+    text-align: right;
+    padding-right: 104px;
+    margin-bottom: 16px;
+}
+
+.content {
+    background-color: #A2D7DD;
+}
+
+.content_inner {
+    padding-top: 24px;
+    padding-left: 104px;
+    padding-right: 104px;
+}
+
+.inner_p {
+    padding-bottom: 48px; 
+    text-indent: 32px;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #000;
+}
+
+.p1 {
+    font-weight: bold;
+}
+
+.orange_str {
+    color: #C53D43;
+}
+
+.ai_str {
+    letter-spacing: 2.5px;
+}

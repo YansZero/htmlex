@@ -1,0 +1,46 @@
+.h1_str {
+    color: blue;
+    font-size: 36px;
+    font-family: Verdana;
+}
+.p1 {
+    font-size: 16px;
+    text-indent: 32px;
+    font-weight: bold;
+}
+
+.p_str {
+    border-left: 10px solid red;
+    border-bottom: 10px solid red;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+a {
+    color: red;
+    
+}
+
+li {
+    line-height: 1.5;
+}
+
+a:hover {
+    color: blue;     
+}
+a:active {
+    color: green;
+}
+
+.error {
+    text-decoration: line-through;
+}
+
+.img_ini {
+    border: 4px solid gray;
+    height: 150px;
+}
+
+img:hover {
+    border: 4px solid pink;
+}

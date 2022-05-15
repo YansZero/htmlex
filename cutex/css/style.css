@@ -1,0 +1,271 @@
+* {
+    box-sizing: border-box;
+} 
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+    font-family: PingFang TC
+}
+
+.navbar {
+
+    display: flex;  
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.logo {
+    width: 222px;
+    height: 40px;
+}
+
+.logo a {
+    display: block;
+}
+
+.menu {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.menu ul li {
+    padding: 10px 30px 8px 30px; 
+}
+
+.menu ul li a {
+    display: block;
+    color: #3F5D45;
+    text-decoration: none;  
+    font-weight: 900;
+    font-size: 16px;   
+
+}
+
+.cart {
+    padding-left: 49px;
+    
+}
+
+.banner {
+    margin-bottom: 60px;
+}
+
+.cart {
+    padding-left: 49px;
+    
+}
+
+.content {
+    display: flex;
+    
+}
+
+.side_menu {
+    width: 300px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.side_menu ul li a {
+    display: block;
+    height: 65px;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 16px 0px;
+    font-weight: bold;
+    border: 1px solid #EAF0ED;
+}
+
+.side_main a {
+    background: #3F5D45;
+    color: #fff;
+}
+
+.side_child a {
+    background-color: #fff;
+    color: #3F5D45;
+
+}
+
+.side_child a:hover {
+    background: #EAF0ED;
+}
+
+.item {
+    width: 620px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.item_detail {
+    width: 300px;
+    padding-bottom: 20px;
+    outline: 1px solid #EAF0ED;
+}
+
+.item_pic {    
+    height: 315px;
+    position: relative;
+}
+
+.choose {
+    writing-mode:vertical-lr;
+    letter-spacing: 8px;
+    padding: 10px;
+    font-size: 16px;
+    width: 36px;
+    background-color: #3F5D45;
+    color: #fff;
+    position: absolute;
+    left: 20px;
+}
+
+.like {
+    position: absolute;
+    top: 19px;
+    left: 258px; 
+}
+
+.item_info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;   
+    text-align: center; 
+} 
+.item_str {
+    width: 173px;
+    color: #3F5D45;
+    padding: 14px 33px;
+    outline: 1px solid #EAF0ED;
+
+}
+.item_price {   
+    width: 127px; 
+    color: #3F5D45;
+    padding: 14px 25px 14px 20px;
+    outline: 1px solid #EAF0ED;
+    font-weight: bold; 
+}
+
+.add_cart a {
+    display: block;
+    text-align: center;
+    padding: 16px 90px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #3F5D45;
+    text-decoration: none;
+    background-color: #EAF0ED;
+    outline: 1px #EAF0ED;
+
+}
+
+.add_cart a:hover {
+    background: #3F5D45;
+    color: #fff;   
+    outline: 1px #3F5D45; 
+}
+
+.item_img1 {
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/student-week1/p-1.png);
+    background-repeat: no-repeat;
+    background-size: 300px auto; 
+}
+
+.item_img2 {
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/student-week1/p-2.png);
+    background-repeat: no-repeat;
+    background-size: 300px auto; 
+}
+
+.item_img3 {
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/student-week1/p-3.png);
+    background-repeat: no-repeat;
+    background-size: 300px auto; 
+}
+
+.item_img4 {
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/student-week1/p-4.png);
+    background-repeat: no-repeat;
+    background-size: 300px auto; 
+}
+
+.item_img5 {
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/student-week1/p-5.png);
+    background-repeat: no-repeat;
+    background-size: 300px auto; 
+}
+
+.item_img6 {
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/student-week1/p-6.png);
+    background-repeat: no-repeat;
+    background-size: 300px auto; 
+}
+
+.bottom {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.bottom_left {
+    width: 320px;
+}
+
+.bottom_right {
+    width: 300px;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;      
+}
+
+.bottom_right ul {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.bottom_right ul li {
+    outline: 1px solid #EAF0ED;
+}
+
+.button_number a {
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+    color: #3F5D45;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.button_number a:hover {
+    background-color: #3F5D45;
+    color: #fff;
+}
+
+.button_img a {
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+    color: #3F5D45;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+

@@ -1,0 +1,50 @@
+$bg_red: #ff0000
+$display_b : block
+
+.header 
+    background-size: cover
+    background-position: center center
+    background-image: url(../asset/img/header_desktop.png)
+    background-repeat: no-repeat
+
+    .banner 
+        min-height: 420px
+
+    .menu-bg
+        min-height: 58px
+        background: $bg_red
+        position: relative   
+
+    .menu
+        top: 0
+        ul
+            a
+                display: block                
+
+            li
+                color: #fff
+                a
+                    &:hover
+                        font-weight: bolder
+    .banner-title
+        max-width: 460px
+        background: $bg_red
+        color: #fff
+
+    .main-menu
+        background: $bg_red
+        overflow: hidden
+        a
+            &:hover
+                background: $bg_red    
+
+    .hamburger-menu                 
+        display: $display_b
+        float: right
+
+    .menu-show
+        max-height: 165px
+
+    .block-md        
+        display: $display_b
+
